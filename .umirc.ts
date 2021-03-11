@@ -9,6 +9,7 @@ export default defineConfig({
     { path: '/', component: '@/pages/index' },
   ],
   fastRefresh: {},
+  webpack5: {},
   // chainWebpack(memo) {
   //   memo.plugin('monaco-editor-webpack-plugin')
   //     .use(MonacoWebpackPlugin, [{
